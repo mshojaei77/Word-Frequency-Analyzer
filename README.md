@@ -78,11 +78,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For support and contribution guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
 If you have any questions or need assistance, you can reach out to the project maintainers at shojaei.dev@gmail.com
-
- Here is a suggested README file:
 
 ## License
 
@@ -100,7 +96,3 @@ While the current version of the Word Frequency Analyzer is functional and provi
 - Expanding the project's documentation and providing more comprehensive user guides and tutorials.
 
 We are committed to continuously improving the Word Frequency Analyzer and welcome any feedback or suggestions from the user community.
-
----
-
-Please refer to the previous sections for the complete Readme contents.
