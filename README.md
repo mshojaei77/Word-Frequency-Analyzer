@@ -88,6 +88,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 While the current version of the Word Frequency Analyzer is functional and provides valuable insights into word frequencies, we have plans for future enhancements and additions. Some of the planned features and improvements include:
 
+- Adding AI Analyze using chatgpt.
 - Adding support for analyzing word frequencies from multiple sources, such as different news websites or RSS feeds.
 - Implementing advanced text analytics techniques, such as sentiment analysis and entity recognition, to gain deeper insights from the analyzed data.
 - Enhancing the visualization capabilities by providing more interactive and customizable charts and graphs.
