@@ -31,6 +31,10 @@ This project is a Python application that analyzes the word frequency in a given
    ```
    pip install -r requirements.txt
    ```
+3. Download the English language model for Spacy run:
+```
+   python -m spacy download en_core_web_sm
+```
 
 ## Usage
 
