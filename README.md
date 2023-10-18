@@ -43,9 +43,9 @@ python project.py
 The application will open a GUI window where you can enter the month and year for analysis. Click the "Analyze" button to start the analysis process. The program will retrieve the sitemap for the specified month and year from CNN's website and display the most repeated words in the console. It will also generate a bar chart showing the top 20 most frequently used words.
 
 
-![GUI Screenshot 1](![image](https://github.com/mshojaei77/Word-Frequency-Analyzer/assets/76538971/c156714c-6ffd-4888-90bc-12d3cc5966ea))
+![GUI Screenshot 1](https://github.com/mshojaei77/Word-Frequency-Analyzer/assets/76538971/c156714c-6ffd-4888-90bc-12d3cc5966ea)
 
-![GUI Screenshot 2](![image](https://github.com/mshojaei77/Word-Frequency-Analyzer/assets/76538971/96d56cfc-cc73-4cd3-8068-e8cb8faec29f))
+![GUI Screenshot 2](https://github.com/mshojaei77/Word-Frequency-Analyzer/assets/76538971/96d56cfc-cc73-4cd3-8068-e8cb8faec29f)
 
 
 ### Testing
