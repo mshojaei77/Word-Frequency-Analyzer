@@ -80,7 +80,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support and contribution guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-If you have any questions or need assistance, you can reach out to the project maintainers at project@example.com.
+If you have any questions or need assistance, you can reach out to the project maintainers at shojaei.dev@gmail.com
 
  Here is a suggested README file:
 
