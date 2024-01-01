@@ -35,6 +35,7 @@ This project is a Python application that analyzes the word frequency in a given
    ```
    python -m spacy download en_core_web_sm
    ```
+(   in new versions it will download and load the model automatically)
 
 ## Usage
 
