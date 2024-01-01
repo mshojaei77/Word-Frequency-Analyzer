@@ -1,6 +1,6 @@
 # Word Frequency Analyzer
 
-#### Video Demo: URL_HERE
+#### Video Demo: [YouTube](https://youtu.be/3J161qamkwI)
 
 ## Description
 
