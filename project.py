@@ -9,30 +9,37 @@ import spacy
 import tkinter as tk
 from tkinter import messagebox
 
+# Load spacy model
+try:
+    nlp = spacy.load('en_core_web_sm')
+except:
+    # If not available, download and load the model
+    spacy.cli.download('en_core_web_sm')
+    nlp = spacy.load('en_core_web_sm')
+
 # Global Attributes
-nlp = spacy.load('en_core_web_sm')  
-parsed_data = dict()  
+parsed_data = dict()
 
 # Core Functionality
 def main():
     window = tk.Tk()
     window.title("Word Frequency Analyzer")
     window.geometry('350x200')
-    
+
     frame = tk.Frame(window)
     frame.pack(pady=20)
-    
+
     tk.Label(frame, text="Month Number: ").grid(row=0, column=0)
     month_entry = tk.Entry(frame)
     month_entry.grid(row=0, column=1)
-    
+
     tk.Label(frame, text="Year: ").grid(row=1, column=0)
     year_entry = tk.Entry(frame)
     year_entry.grid(row=1, column=1)
-    
+
     analyze_button = tk.Button(window, text="Analyze", command=lambda: analyze(month_entry.get(), year_entry.get()))
     analyze_button.pack(pady=10)
-    
+
     window.mainloop()
 
 def analyze(month_str, year_str):
@@ -40,7 +47,7 @@ def analyze(month_str, year_str):
         month_number = int(month_str)
         month = month_number_to_name(month_number)
         year = int(year_str)
-        
+
         if month is not None:
             month_number_str = str(month_number).zfill(2)
             url = f'https://edition.cnn.com/article/sitemap-{year}-{month_number_str}.html'
